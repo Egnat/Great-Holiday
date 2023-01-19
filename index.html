@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/styles.css">
+  <!--<script type="text/javascript">alert("Привет !!! Поздравляю ! ");</script>-->
+	<title>Christening 2023</title>
+</head>
+<body>
+	<header></header>
+<main>
+  <figure class="filterBack">
+    
+  </figure>
+	<!-- Images used to open the lightbox -->
+  <section class="sliderContent">
+
+    <figure class="filterPhotoSliderContent">
+      <img class="photoSliderContent"src="https://vlars.ru/wp-content/uploads/2022/01/apraprapr.gif">
+    </figure>
+<!--<div class="row">-->
+  <div class="column">
+    <img src="https://vlars.ru/wp-content/uploads/2022/01/krne.gif" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="https://vlars.ru/wp-content/uploads/2022/01/gneoleng.gif" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="https://vlars.ru/wp-content/uploads/2022/01/vrpakerp.gif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="https://vlars.ru/wp-content/uploads/2022/01/aprarop.gif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+<!--</div>-->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <figure class="filterBackModal-content">
+<img class="backModal-content" src="https://vlars.ru/wp-content/uploads/2022/01/0ker.gif">
+</figure>
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://vlars.ru/wp-content/uploads/2022/01/krne.gif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://vlars.ru/wp-content/uploads/2022/01/gneoleng.gif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://vlars.ru/wp-content/uploads/2022/01/vrpakerp.gif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://vlars.ru/wp-content/uploads/2022/01/aprarop.gif" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="https://vlars.ru/wp-content/uploads/2022/01/krne.gif" onclick="currentSlide(1)" alt="Привет">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="https://vlars.ru/wp-content/uploads/2022/01/gneoleng.gif" onclick="currentSlide(2)" alt="Поздравляю">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="https://vlars.ru/wp-content/uploads/2022/01/vrpakerp.gif" onclick="currentSlide(3)" alt="С Великим">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="https://vlars.ru/wp-content/uploads/2022/01/aprarop.gif" onclick="currentSlide(4)" alt="Праздником !">
+    </div>
+  </div>
+</div>
+</section>
+</main>
+<footer>
+	<script type="text/javascript"src="script.js/main.js"></script>   
+</footer>
+</body>
+</html>
